@@ -18,7 +18,7 @@ jobs:
         run: npm install --force      
 
       - name: Semver
-        run: npm install -g semver       
+        run: npm install -g server       
 
       - name: Build
         run: npm run build
